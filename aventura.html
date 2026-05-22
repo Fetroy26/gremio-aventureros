@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="codigo.js"></script>
+  <title>Empezar Aventura</title>
+  <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+  <div id="div3">
+    <h1 class="nuevo">¿Que haces?</h1>
+    <form>
+      <p>Accion:
+        <select id="acción">
+            <option value="1">Curarse</option>
+            <option value="2">Atacar</option>
+            <option value="3">Defender</option>
+        </select>
+      </p>
+
+      <p>Party:
+        <select id="tipo">
+            <option value="1">SOLITARIO</option>
+            <option value="2">PARTY (2-3)</option>
+            <option value="3">PARTY (4+)</option>
+            <option value="4">EJERCITO</option>
+        </select>
+      </p>
+    </form>
+
+    <button onclick="cotizar()">Consecuencia</button>
+    <br>
+    <p id="resultado4"></p>
+  </div>
+
+</body>
+</html>

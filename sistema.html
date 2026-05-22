@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="codigo.js"></script>
+  <title>Registro al Gremio</title>
+  <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+
+  <div id="div2">
+    <h1>REGISTRO DE AVENTURERO</h1>
+    <form>
+      <p><strong>Nombre</strong> <input type="text" id="nombre" placeholder="indique su nombre" required></p>
+      <p>Clase <select name="carrera">
+        <option> Guerrero </option>
+        <option> Arquero </option>
+        <option> Mago </option>
+        <option> Pícaro </option>
+        </select>
+      </p>
+      <p>NIVEL: <input type="number" id="edad"></p>
+      <p>Nacimiento: <input type="date" name="fecha" value="2026-05-22"></p>
+      <p>RAZA:
+        <br> 
+        Humano <input type="radio" name="raza" value="Humano"> 
+        Elfo <input type="radio" name="raza" value="Elfo">
+        <br>
+        Enano <input type="radio" name="raza" value="Enano">
+        Orco <input type="radio" name="raza" value="Orco">
+        </p>
+        <hr>
+        <p>
+            Si quiere tener una idea de que acciones existen lea las reglas -> <a href="http://127.0.0.1:5500/Reglas.html" target="_blank">Manual</a>
+        </p>
+    </form>
+
+    <button onclick="afiliar()">REGISTRAR</button>
+    <br>
+    <p id="resultado3"></p>
+  </div>
+
+</body>
+</html>
