@@ -3,7 +3,7 @@ function validar()
     var usu = document.getElementById("usuario").value;
     var clave = document.getElementById("clave").value;
 
-    if (usu == "Eduardo" && clave == "un4") 
+    if (usu == "Eduardo" && clave == "un7porfa") 
     {
         window.location.href = "sistema.html";
     } 
